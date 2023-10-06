@@ -41,14 +41,14 @@ class Level:
 
     def create_map(self):
         layouts = {
-            'boundary': import_csv_layout('/Users/learnacademy/Desktop/4-Cornerz-4/map/map_FloorBlocks.csv'),
-            'grass': import_csv_layout('/Users/learnacademy/Desktop/4-Cornerz-4/map/map_Grass.csv'),
-            'object': import_csv_layout('/Users/learnacademy/Desktop/4-Cornerz-4/map/map_LargeObjects.csv'),
-            'entities': import_csv_layout('/Users/learnacademy/Desktop/4-Cornerz-4/map/map_Entities.csv')
+            'boundary': import_csv_layout('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/map/map_FloorBlocks.csv'),
+            'grass': import_csv_layout('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/map/map_Grass.csv'),
+            'object': import_csv_layout('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/map/map_LargeObjects.csv'),
+            'entities': import_csv_layout('//Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/map/map_Entities.csv')
         }
         graphics = {
-            'grass': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/grass'),
-            'objects': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/objects'),
+            'grass': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/grass'),
+            'objects': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/objects'),
         }
       
 
@@ -168,7 +168,7 @@ class YSortCameraGroup(pygame.sprite.Group):
         self.half_height = self.display_surface.get_size()[1] // 2
         self.offset = pygame.math.Vector2()
 
-        self.floor_surf = pygame.image.load('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/tilemap/ground.png').convert()
+        self.floor_surf = pygame.image.load('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/tilemap/ground.png').convert()
         self.floor_rect = self.floor_surf.get_rect(topleft = (0,0))
 
     def custom_draw(self,player):

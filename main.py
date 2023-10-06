@@ -15,7 +15,7 @@ class Game:
 		self.level = Level()
 	
 		#sound
-		main_sound = pygame.mixer.Sound('/Users/learnacademy/Desktop/4-Cornerz-4/audio/main.ogg')
+		main_sound = pygame.mixer.Sound('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/audio/main.ogg')
 		main_sound.set_volume(0.5)
 		main_sound.play(loops = -1)
 

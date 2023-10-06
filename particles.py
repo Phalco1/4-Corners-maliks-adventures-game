@@ -6,37 +6,37 @@ class AnimationPlayer:
     def __init__(self):
         self.frames = {
 			# magic
-			'flame': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/flame/frames'),
-			'aura': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/aura'),
-			'heal': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/heal/frames'),
+			'flame': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/flame/frames'),
+			'aura': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/aura'),
+			'heal': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/heal/frames'),
 			
 			# attacks 
-			'claw': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/claw'),
-			'slash': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/slash'),
-			'sparkle': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/sparkle'),
-			'leaf_attack': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf_attack'),
-			'thunder': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/thunder'),
+			'claw': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/claw'),
+			'slash': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/slash'),
+			'sparkle': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/sparkle'),
+			'leaf_attack': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf_attack'),
+			'thunder': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/thunder'),
 
 			# monster deaths
-			'squid': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/smoke_orange'),
-			'raccoon': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/raccoon'),
-			'spirit': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/nova'),
-			'bamboo': import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/bamboo'),
+			'squid': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/smoke_orange'),
+			'raccoon': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/raccoon'),
+			'spirit': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/nova'),
+			'bamboo': import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/bamboo'),
 			
 			# leafs 
 			'leaf': (
-				import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf1'),
-				import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf2'),
-				import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf3'),
-				import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf4'),
-				import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf5'),
-				import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf6'),
-				self.reflect_images(import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf1')),
-				self.reflect_images(import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf2')),
-				self.reflect_images(import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf3')),
-				self.reflect_images(import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf4')),
-				self.reflect_images(import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf5')),
-				self.reflect_images(import_folder('/Users/learnacademy/Desktop/4-Cornerz-4/graphics/particles/leaf6'))
+				import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf1'),
+				import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf2'),
+				import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf3'),
+				import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf4'),
+				import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf5'),
+				import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf6'),
+				self.reflect_images(import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf1')),
+				self.reflect_images(import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf2')),
+				self.reflect_images(import_folder('//Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf3')),
+				self.reflect_images(import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf4')),
+				self.reflect_images(import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf5')),
+				self.reflect_images(import_folder('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/particles/leaf6'))
 				)
 			}
 

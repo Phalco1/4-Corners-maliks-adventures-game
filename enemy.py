@@ -46,8 +46,8 @@ class Enemy(Entity):
         self.invicibility_duration = 300
 
         # sounds
-        self.death_sound = pygame.mixer.Sound('/Users/learnacademy/Desktop/4-Cornerz-4/audio/death.wav')
-        self.hit_sound = pygame.mixer.Sound('/Users/learnacademy/Desktop/4-Cornerz-4/audio/death.wav')
+        self.death_sound = pygame.mixer.Sound('/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/audio/death.wav')
+        self.hit_sound = pygame.mixer.Sound('//Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/audio/death.wav')
         self.attack_sound = pygame.mixer.Sound(monster_info['attack_sound'])
         self.death_sound.set_volume(0.6)
         self.hit_sound.set_volume(0.6)
@@ -56,7 +56,7 @@ class Enemy(Entity):
 
     def import_graphics(self,name):
         self.animations = {'idle':[],'move':[],'attack':[]}
-        main_path = f'/Users/learnacademy/Desktop/4-Cornerz-4/graphics/monsters/{name}/'
+        main_path = f'/Users/paulgooden/Desktop/4-Corners-maliks-adventures-game/graphics/monsters/{name}/'
         for animation in self.animations.keys():
             self.animations[animation] = import_folder(main_path + animation)
 
